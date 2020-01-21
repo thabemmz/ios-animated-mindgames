@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Set
+//  AnimatedMindGames
 //
 //  Created by Christiaan van Bemmel on 09/08/2019.
 //  Copyright © 2019 Christiaan van Bemmel. All rights reserved.

@@ -12,16 +12,44 @@
 		415C162F22FD90D400F6C4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415C162D22FD90D400F6C4D9 /* Main.storyboard */; };
 		415C163122FD90D600F6C4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415C163022FD90D600F6C4D9 /* Assets.xcassets */; };
 		415C163422FD90D600F6C4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415C163222FD90D600F6C4D9 /* LaunchScreen.storyboard */; };
+		4182D5C12332CFE500E05C41 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182D5C02332CFE500E05C41 /* CardBehavior.swift */; };
+		418A4DF623429DB10081B8BB /* ConcentrationThemePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A4DEB23429DB00081B8BB /* ConcentrationThemePickerViewController.swift */; };
+		418A4DF723429DB10081B8BB /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A4DEC23429DB10081B8BB /* Concentration.swift */; };
+		418A4DF823429DB10081B8BB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A4DED23429DB10081B8BB /* Theme.swift */; };
+		418A4DFD23429DB10081B8BB /* ConcentrationGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A4DF423429DB10081B8BB /* ConcentrationGameViewController.swift */; };
+		418A4DFE23429DB10081B8BB /* ConcentrationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A4DF523429DB10081B8BB /* ConcentrationCard.swift */; };
+		419A80F12322A8F1005E2BE8 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A80F02322A8F1005E2BE8 /* DeckView.swift */; };
+		41A4B42B23365C7A0008B3CD /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4B42923365C790008B3CD /* SetGame.swift */; };
+		41A4B42C23365C7A0008B3CD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4B42A23365C790008B3CD /* Card.swift */; };
+		41B39075231471550050D8F2 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B39074231471550050D8F2 /* SymbolView.swift */; };
+		41D95DD6230EBC8200A62097 /* SetDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D95DD5230EBC8200A62097 /* SetDeck.swift */; };
+		41D95DD9230EC37000A62097 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D95DD8230EC37000A62097 /* CardView.swift */; };
+		41D95DDC230EC40500A62097 /* OpenCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D95DDB230EC40500A62097 /* OpenCardsView.swift */; };
+		41D95DE1230EC7E400A62097 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D95DE0230EC7E400A62097 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		415C162622FD90D400F6C4D9 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415C162622FD90D400F6C4D9 /* AnimatedMindGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedMindGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415C162922FD90D400F6C4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		415C162B22FD90D400F6C4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		415C162E22FD90D400F6C4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		415C163022FD90D600F6C4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415C163322FD90D600F6C4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415C163522FD90D600F6C4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4182D5C02332CFE500E05C41 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		418A4DEB23429DB00081B8BB /* ConcentrationThemePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationThemePickerViewController.swift; sourceTree = "<group>"; };
+		418A4DEC23429DB10081B8BB /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		418A4DED23429DB10081B8BB /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		418A4DF423429DB10081B8BB /* ConcentrationGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationGameViewController.swift; sourceTree = "<group>"; };
+		418A4DF523429DB10081B8BB /* ConcentrationCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationCard.swift; sourceTree = "<group>"; };
+		419A80F02322A8F1005E2BE8 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		41A4B42923365C790008B3CD /* SetGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		41A4B42A23365C790008B3CD /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		41B39074231471550050D8F2 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		41D95DD5230EBC8200A62097 /* SetDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDeck.swift; sourceTree = "<group>"; };
+		41D95DD8230EC37000A62097 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		41D95DDB230EC40500A62097 /* OpenCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCardsView.swift; sourceTree = "<group>"; };
+		41D95DE0230EC7E400A62097 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +66,7 @@
 		415C161D22FD90D400F6C4D9 = {
 			isa = PBXGroup;
 			children = (
-				415C162822FD90D400F6C4D9 /* Set */,
+				415C162822FD90D400F6C4D9 /* AnimatedMindGames */,
 				415C162722FD90D400F6C4D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +74,108 @@
 		415C162722FD90D400F6C4D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				415C162622FD90D400F6C4D9 /* Set.app */,
+				415C162622FD90D400F6C4D9 /* AnimatedMindGames.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		415C162822FD90D400F6C4D9 /* Set */ = {
+		415C162822FD90D400F6C4D9 /* AnimatedMindGames */ = {
+			isa = PBXGroup;
+			children = (
+				418A4DEA23429D980081B8BB /* Concentration */,
+				4182D5C42336584D00E05C41 /* Set */,
+				415C162D22FD90D400F6C4D9 /* Main.storyboard */,
+				415C163022FD90D600F6C4D9 /* Assets.xcassets */,
+				415C163522FD90D600F6C4D9 /* Info.plist */,
+				415C163B22FD97B100F6C4D9 /* Supporting Files */,
+			);
+			path = AnimatedMindGames;
+			sourceTree = "<group>";
+		};
+		415C163B22FD97B100F6C4D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				415C162922FD90D400F6C4D9 /* AppDelegate.swift */,
-				415C162B22FD90D400F6C4D9 /* ViewController.swift */,
-				415C162D22FD90D400F6C4D9 /* Main.storyboard */,
-				415C163022FD90D600F6C4D9 /* Assets.xcassets */,
 				415C163222FD90D600F6C4D9 /* LaunchScreen.storyboard */,
-				415C163522FD90D600F6C4D9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4182D5C22332CFED00E05C41 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				4182D5C02332CFE500E05C41 /* CardBehavior.swift */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
+		4182D5C42336584D00E05C41 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				41D95DE4230ECC4D00A62097 /* Controllers */,
+				41D95DD7230EBFD000A62097 /* Models */,
+				41D95DDA230EC3F000A62097 /* Views */,
 			);
 			path = Set;
+			sourceTree = "<group>";
+		};
+		418A4DEA23429D980081B8BB /* Concentration */ = {
+			isa = PBXGroup;
+			children = (
+				418A4DF523429DB10081B8BB /* ConcentrationCard.swift */,
+				418A4DEC23429DB10081B8BB /* Concentration.swift */,
+				418A4DF423429DB10081B8BB /* ConcentrationGameViewController.swift */,
+				418A4DEB23429DB00081B8BB /* ConcentrationThemePickerViewController.swift */,
+				418A4DED23429DB10081B8BB /* Theme.swift */,
+			);
+			path = Concentration;
+			sourceTree = "<group>";
+		};
+		41D95DD7230EBFD000A62097 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41A4B42A23365C790008B3CD /* Card.swift */,
+				41A4B42923365C790008B3CD /* SetGame.swift */,
+				41D95DD5230EBC8200A62097 /* SetDeck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41D95DDA230EC3F000A62097 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4182D5C22332CFED00E05C41 /* Behaviors */,
+				41D95DDF230EC7DB00A62097 /* Helpers */,
+				41D95DD8230EC37000A62097 /* CardView.swift */,
+				419A80F02322A8F1005E2BE8 /* DeckView.swift */,
+				41B39074231471550050D8F2 /* SymbolView.swift */,
+				41D95DDB230EC40500A62097 /* OpenCardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41D95DDF230EC7DB00A62097 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41D95DE0230EC7E400A62097 /* Grid.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		41D95DE4230ECC4D00A62097 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				415C162B22FD90D400F6C4D9 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		415C162522FD90D400F6C4D9 /* Set */ = {
+		415C162522FD90D400F6C4D9 /* AnimatedMindGames */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 415C163822FD90D600F6C4D9 /* Build configuration list for PBXNativeTarget "Set" */;
+			buildConfigurationList = 415C163822FD90D600F6C4D9 /* Build configuration list for PBXNativeTarget "AnimatedMindGames" */;
 			buildPhases = (
 				415C162222FD90D400F6C4D9 /* Sources */,
 				415C162322FD90D400F6C4D9 /* Frameworks */,
@@ -79,9 +185,9 @@
 			);
 			dependencies = (
 			);
-			name = Set;
+			name = AnimatedMindGames;
 			productName = Set;
-			productReference = 415C162622FD90D400F6C4D9 /* Set.app */;
+			productReference = 415C162622FD90D400F6C4D9 /* AnimatedMindGames.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 415C162122FD90D400F6C4D9 /* Build configuration list for PBXProject "Set" */;
+			buildConfigurationList = 415C162122FD90D400F6C4D9 /* Build configuration list for PBXProject "AnimatedMindGames" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				415C162522FD90D400F6C4D9 /* Set */,
+				415C162522FD90D400F6C4D9 /* AnimatedMindGames */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +241,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418A4DFD23429DB10081B8BB /* ConcentrationGameViewController.swift in Sources */,
 				415C162C22FD90D400F6C4D9 /* ViewController.swift in Sources */,
+				41D95DD9230EC37000A62097 /* CardView.swift in Sources */,
+				41A4B42B23365C7A0008B3CD /* SetGame.swift in Sources */,
+				418A4DF723429DB10081B8BB /* Concentration.swift in Sources */,
+				418A4DFE23429DB10081B8BB /* ConcentrationCard.swift in Sources */,
+				41D95DDC230EC40500A62097 /* OpenCardsView.swift in Sources */,
+				41D95DE1230EC7E400A62097 /* Grid.swift in Sources */,
+				419A80F12322A8F1005E2BE8 /* DeckView.swift in Sources */,
+				418A4DF623429DB10081B8BB /* ConcentrationThemePickerViewController.swift in Sources */,
+				41B39075231471550050D8F2 /* SymbolView.swift in Sources */,
 				415C162A22FD90D400F6C4D9 /* AppDelegate.swift in Sources */,
+				41D95DD6230EBC8200A62097 /* SetDeck.swift in Sources */,
+				4182D5C12332CFE500E05C41 /* CardBehavior.swift in Sources */,
+				41A4B42C23365C7A0008B3CD /* Card.swift in Sources */,
+				418A4DF823429DB10081B8BB /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +404,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V6V82697K;
-				INFOPLIST_FILE = Set/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimatedMindGames/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cvb.thabemmz.Set;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cvb.thabemmz.AnimatedMindGames;
+				PRODUCT_NAME = AnimatedMindGames;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +422,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V6V82697K;
-				INFOPLIST_FILE = Set/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimatedMindGames/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cvb.thabemmz.Set;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cvb.thabemmz.AnimatedMindGames;
+				PRODUCT_NAME = AnimatedMindGames;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		415C162122FD90D400F6C4D9 /* Build configuration list for PBXProject "Set" */ = {
+		415C162122FD90D400F6C4D9 /* Build configuration list for PBXProject "AnimatedMindGames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				415C163622FD90D600F6C4D9 /* Debug */,
@@ -326,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		415C163822FD90D600F6C4D9 /* Build configuration list for PBXNativeTarget "Set" */ = {
+		415C163822FD90D600F6C4D9 /* Build configuration list for PBXNativeTarget "AnimatedMindGames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				415C163922FD90D600F6C4D9 /* Debug */,
